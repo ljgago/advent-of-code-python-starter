@@ -1,6 +1,6 @@
 # Advent of Code Python Starter
 
-A tamplate for [Advent of Code](https://adventofcode.com) write in Python.
+A template for [Advent of Code](https://adventofcode.com) write in Python.
 
 ## Usage
 
@@ -21,7 +21,7 @@ Clone this repository and run `poetry install` for install dependencies:
 
 ## Generate
 
-You can generate all necesary files for use in the event with a simple
+You can generate all necessary files for use in the event with a simple
 command:
 
     $ poetry run python -m aoc.gen day01
@@ -47,7 +47,7 @@ This command generate these files:
 You can configure the automatic input download from the Advent of Code
 session token.
 
-For dowload the inputs from web, you needs to set the environment var
+To dowload the inputs from web, you needs to set the environment var
 `AOC_SESSION`. You can to get the session token from the cookie web browser.
 
 Also can you set the `AOC_YEAR` to select a certain year.
