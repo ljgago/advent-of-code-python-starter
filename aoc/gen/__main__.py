@@ -88,7 +88,7 @@ def gen_template(templates, paths, substitute):
 
 def main():
     load_dotenv()
-    if len(sys.argv) is not 2:
+    if len(sys.argv) != 2:
         print("--- aoc.gen needs one only argument ---")
         return
 
