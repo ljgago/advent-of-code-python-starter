@@ -49,10 +49,10 @@ def write_file(filename, content):
         info(filename, False)
         return
 
-# get de default year
+# get the default year
 def default_year():
     today = date.today()
-    if today.day == 12:
+    if today.month == 12:
         return today.year
     else:
         return today.year - 1
